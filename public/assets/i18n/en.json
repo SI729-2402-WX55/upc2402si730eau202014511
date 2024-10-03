@@ -21,5 +21,11 @@
   "home": {
     "title": "Home",
     "content": "Welcome to \nEventify"
+  },
+  "page_not_found": {
+    "title": "404 - Page Not Found",
+    "message_firstPart": "The requested URL",
+    "message_secondPart": "was not found on this server.",
+    "button": "Return to Home"
   }
 }

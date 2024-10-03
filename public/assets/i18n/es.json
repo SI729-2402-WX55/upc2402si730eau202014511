@@ -21,5 +21,11 @@
   "home": {
     "title": "Inicio",
     "content": "Bienvenido a \nEventify"
+  },
+  "page_not_found": {
+    "title": "404 - Página no Encontrada",
+    "message_firstPart": "La URL solicitada",
+    "message_secondPart": "no se encontró en este servidor.",
+    "button": "Volver a Inicio"
   }
 }
