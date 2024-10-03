@@ -1,0 +1,25 @@
+{
+  "toolbar": {
+    "home": "Home",
+    "check-in": "Check-in"
+  },
+  "event": {
+    "event_id": "Event ID",
+    "title": "Registered Events",
+    "name": "Event Name",
+    "description": "Description",
+    "scheduledAt": "Scheduled At",
+    "registeredAttendees": "Registered Attendees",
+    "attendeesPercentage": "Attendees Percentage",
+    "checkIn": "Check In"
+  },
+  "attendee": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "checkedInAt": "Checked In At"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Welcome to \nEventify"
+  }
+}

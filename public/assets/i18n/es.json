@@ -1,0 +1,25 @@
+{
+  "toolbar": {
+    "home": "Inicio",
+    "check-in": "Registro"
+  },
+  "event": {
+    "event_id": "ID del Evento",
+    "title": "Eventos Registrados",
+    "name": "Nombre del Evento",
+    "description": "Descripción",
+    "scheduledAt": "Programado Para",
+    "registeredAttendees": "Asistentes Registrados",
+    "attendeesPercentage": "Porcentaje de Asistentes",
+    "checkIn": "Registro"
+  },
+  "attendee": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "checkedInAt": "Registrado en"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Bienvenido a \nEventify"
+  }
+}

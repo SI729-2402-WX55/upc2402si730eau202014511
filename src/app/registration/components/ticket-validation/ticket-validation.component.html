@@ -1,0 +1,22 @@
+<section class="ticket-validation">
+  <form [formGroup]="ticketValidation" (ngSubmit)="checkIn()">
+    <mat-form-field>
+      <mat-label>Ticket Identifier</mat-label>
+      <input matInput formControlName="ticketIdentifier" required>
+      <mat-error *ngIf="ticketValidation.get('ticketIdentifier')?.hasError('required')">
+        Ticket Identifier is required
+      </mat-error>
+    </mat-form-field>
+
+    <div class="buttons">
+      <button mat-flat-button type="submit" [disabled]="!ticketValidation.valid">Check-In</button>
+      <button mat-flat-button color="warn" type="button" (click)="cancel()">Cancel</button>
+    </div>
+  </form>
+
+  <!-- Mostrar el mensaje de check-in -->
+  <p *ngIf="checkInMessage">{{ checkInMessage }}</p>
+
+  <!-- Mostrar el componente de detalles del asistente si se ha validado -->
+  <app-attendee-card *ngIf="submitted" [attendee]="attendee" [event]="eventAttendee"></app-attendee-card>
+</section>

@@ -1,0 +1,8 @@
+<section>
+  <span class="title">{{ 'event.title' | translate }}</span>
+  <mat-nav-list class="events-list">
+    @for (event of events; track event.id) {
+      <app-event-summary [event]="event"/>
+    }
+  </mat-nav-list>
+</section>
